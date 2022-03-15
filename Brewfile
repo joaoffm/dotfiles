@@ -1,5 +1,6 @@
 # Taps
 tap 'homebrew/cask'
+tap 'homebrew/cask-drivers'
 # tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
@@ -86,7 +87,7 @@ cask 'tableplus'
 cask 'the-unarchiver'
 # cask 'tinkerwell'
 # cask 'transmit'
-cask 'tunnelbear'
+# cask 'tunnelbear'
 # cask 'tuple'
 cask 'visual-studio-code'
 cask "vlc"
