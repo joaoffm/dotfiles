@@ -49,7 +49,7 @@ brew 'redis'
 brew "wget"
 brew "wp-cli"
 brew "wrk"
-brew 'yarn', args: ["without-node"]
+# brew 'yarn'
 
 # Apps
 # cask '1password'
@@ -114,6 +114,6 @@ mas "EchofonLite", id: 403858460
 mas "Hue in the Menu", id: 1534707384
 # mas 'Keynote', id: 409183694
 # mas 'Numbers', id: 409203825
-mas 'Speedtest', id: 1153157709
+# mas 'Speedtest', id: 1153157709
 # mas 'Things', id: 904280696
 # mas 'Tweetbot', id: 1384080005
