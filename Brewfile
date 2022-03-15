@@ -67,6 +67,7 @@ cask 'gpg-suite'
 # cask 'helo'
 # cask 'homebrew/cask-drivers/elgato-stream-deck'
 cask 'imageoptim'
+cask 'iterm2'
 cask 'insomnia'
 cask "keepassxc"
 cask "lando"
