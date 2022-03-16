@@ -29,7 +29,7 @@ brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'jpegoptim'
 brew 'optipng'
 brew 'pngquant'
-brew 'svgo'
+# brew 'svgo' # (Requires node)
 brew 'gifsicle'
 
 # Development
@@ -41,7 +41,8 @@ brew "php-cs-fixer"
 brew 'composer'
 # brew 'imagemagick'
 # brew 'meilisearch'
-brew 'mysql'
+# brew 'mysql'
+# brew 'mysql@5.7'
 brew "n"
 brew 'nginx'
 # brew 'node'
@@ -73,6 +74,7 @@ cask "keepassxc"
 cask "lando"
 cask "libreoffice"
 cask "logitech-options"
+cask "microsoft-teams"
 # cask 'pastebot' # https://tapbots.com/pastebot/
 cask 'phpmon'
 # cask 'phpstorm'
