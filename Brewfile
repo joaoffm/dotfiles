@@ -1,10 +1,11 @@
 # Taps
 tap 'homebrew/cask'
-tap 'homebrew/cask-drivers'
+# tap 'homebrew/cask-drivers'
 # tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'shivammathur/php'
 
 # Binaries
 brew "ansible"
@@ -36,6 +37,7 @@ brew 'gifsicle'
 brew 'php'
 brew 'php@8.0'
 brew 'php@7.4'
+brew 'shivammathur/php/php@7.3'
 brew "php-code-sniffer"
 brew "php-cs-fixer"
 brew 'composer'
@@ -73,7 +75,7 @@ cask 'insomnia'
 cask "keepassxc"
 cask "lando"
 cask "libreoffice"
-cask "logitech-options"
+# cask "logitech-options" # Using Logitech Options + Beta (Better with Apple Silicon)
 cask "microsoft-teams"
 # cask 'pastebot' # https://tapbots.com/pastebot/
 cask 'phpmon'

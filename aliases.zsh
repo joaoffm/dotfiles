@@ -26,9 +26,15 @@ alias serve="php artisan serve"
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
 alias composer="php -d memory_limit=-1 /opt/homebrew/bin/composer"
-alias php7.3="/usr/local/opt/php@7.3/bin/php"
-alias php7.4="/usr/local/opt/php@7.4/bin/php"
-alias php8.0="/usr/local/opt/php@8.0/bin/php"
+## Intel
+#alias php7.3="/usr/local/opt/php@7.3/bin/php"
+#alias php7.4="/usr/local/opt/php@7.4/bin/php"
+#alias php8.0="/usr/local/opt/php@8.0/bin/php"
+## Apple Silicon
+alias php7.3="/opt/homebrew/opt/php@7.3/bin/php"
+alias php7.4="/opt/homebrew/opt/php@7.4/bin/php"
+alias php8.0="/opt/homebrew/opt/php@7.4/bin/php"
+
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
