@@ -26,6 +26,12 @@ brew 'mas' # Mac App Store manager
 brew "nmap"
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 
+# DevOps
+brew 'minikube'
+brew 'kubectl' # kubernetes-cli
+brew 'kubectx'
+# brew 'hyperkit' # Not available on Apple Silicon
+
 # Spatie Medialibrary
 brew 'jpegoptim'
 brew 'optipng'
@@ -56,6 +62,7 @@ brew "wrk"
 
 # Apps
 # cask '1password'
+cask 'adobe-acrobat-reader'
 cask 'caffeine'
 cask 'dbngin' # https://dbngin.com/
 cask 'discord'
@@ -91,7 +98,7 @@ cask 'tableplus'
 # cask 'telegram-desktop'
 cask 'the-unarchiver'
 # cask 'tinkerwell'
-# cask 'transmit'
+cask 'transmit'
 # cask 'tunnelbear'
 # cask 'tuple'
 cask 'visual-studio-code'
@@ -118,6 +125,7 @@ mas "EchofonLite", id: 403858460
 # mas 'Giphy Capture', id: 668208984
 mas "Hue in the Menu", id: 1534707384
 # mas 'Keynote', id: 409183694
+mas 'Meeter', id: 1510445899
 # mas 'Numbers', id: 409203825
 # mas 'Speedtest', id: 1153157709
 # mas 'Things', id: 904280696

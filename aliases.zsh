@@ -33,8 +33,10 @@ alias composer="php -d memory_limit=-1 /opt/homebrew/bin/composer"
 ## Apple Silicon
 alias php7.3="/opt/homebrew/opt/php@7.3/bin/php"
 alias php7.4="/opt/homebrew/opt/php@7.4/bin/php"
-alias php8.0="/opt/homebrew/opt/php@7.4/bin/php"
-
+alias php8.0="/opt/homebrew/opt/php@8.0/bin/php"
+alias php8.1="/opt/homebrew/opt/php@8.1/bin/php"
+# PestPHP
+alias p="./vendor/bin/pest --colors=always"
 
 # JS
 alias nfresh="rm -rf node_modules/ package-lock.json && npm install"
@@ -67,3 +69,8 @@ alias wip="commit wip"
 # Custom
 alias hosts="sudo vi /etc/hosts"
 alias sshc="vi ~/.ssh/config"
+alias dep="vendor/bin/deployer.phar"
+
+# DBngin
+#alias mysqldump="/Users/Shared/DBngin/mysql/5.7.23/bin/mysqldump"
+
