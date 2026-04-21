@@ -1,26 +1,34 @@
 # Taps
-tap 'homebrew/cask'
+tap "anomalyco/tap" # Opencode CLI
+tap "aws/tap" # AWS CLI v2
 # tap 'homebrew/cask-drivers'
 # tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
-tap 'nicoverbruggen/homebrew-cask'
-# tap 'shivammathur/php'
+tap "warrensbox/tap" # Tfswitch
 
 # Binaries
+brew "akamai"
 brew "ansible"
 brew 'awscli'
 brew "azcopy"
 brew "azure-cli"
 brew 'bash' # Latest Bash version
+brew 'bat' # Used for spatie/visit
+brew "cfn-lint"
+brew "cloud-sql-proxy"
+brew "colima"
 brew 'coreutils' # Those that come with macOS are outdated
 brew 'ffmpeg'
 brew 'gh'
-brew 'git'
-brew 'gnupg'
+brew "git"
+brew "git-cliff"
+brew "git-lfs"
+brew "gitleaks"
 brew "goaccess"
 brew 'grep'
 brew 'httpie'
+brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
 brew "nmap"
@@ -31,8 +39,10 @@ brew 'helm'
 brew 'minikube'
 brew 'kubectl' # kubernetes-cli
 brew 'kubectx'
-brew 'argocd'
-# brew 'hyperkit' # Not available on Apple Silicon
+brew "docker"
+brew "docker-buildx"
+brew "docker-compose"
+brew "docker-credential-helper"
 
 # Spatie Medialibrary
 brew 'jpegoptim'
@@ -43,70 +53,44 @@ brew 'gifsicle'
 
 # Development
 brew 'php'
-brew 'php@8.0'
-brew 'php@7.4'
-# brew 'shivammathur/php/php@7.3'
+brew 'php@8.3'
 brew "php-code-sniffer"
 brew "php-cs-fixer"
 brew 'composer'
 # brew 'imagemagick'
-# brew 'meilisearch'
-# brew 'mysql'
-# brew 'mysql@5.7'
 brew "n"
-brew 'nginx'
-# brew 'node'
-brew 'redis'
 brew "wget"
 brew "wp-cli"
 brew "wrk"
-# brew 'yarn'
+
 
 # Apps
-# cask '1password'
 cask 'adobe-acrobat-reader'
 cask 'caffeine'
-cask 'dbngin' # https://dbngin.com/
-cask 'discord'
-cask 'docker'
-cask "dropbox"
-# cask 'figma'
-cask 'firefox'
-cask 'github'
-cask 'google-chrome'
-cask 'google-cloud-sdk'
+cask 'dbngin'
+# cask 'discord'
+cask "ghostty"
+cask "github"
 cask "google-drive"
-cask 'gpg-suite'
-# cask 'helo'
-# cask 'homebrew/cask-drivers/elgato-stream-deck'
+cask "google-drive"
+cask "handy"
+cask 'herd'
+cask 'httpie'
 cask 'imageoptim'
 cask 'iterm2'
-cask 'insomnia'
 cask "keepassxc"
 cask "lando"
-cask "libreoffice"
-# cask "logitech-options" # Using Logitech Options + Beta (Better with Apple Silicon)
-cask "microsoft-teams"
-# cask 'pastebot' # https://tapbots.com/pastebot/
-cask 'phpmon'
-# cask 'phpstorm'
-# cask 'ray'
+cask "opencode-desktop"
+cask "raycast"
 cask 'rectangle'
-# cask 'screenflow'
 cask "sequel-pro"
-cask 'slack'
-# cask "spectacle"
 cask "spotify"
 cask "sublime-text"
 cask 'tableplus'
-# cask 'telegram-desktop'
+cask "warrensbox/tap/tfswitch"
 cask 'the-unarchiver'
-# cask 'tinkerwell'
-cask 'transmit'
-# cask 'tunnelbear'
-# cask 'tuple'
 cask 'visual-studio-code'
-cask "vlc"
+cask "warp"
 cask 'whatsapp'
 cask 'zoom'
 
@@ -124,13 +108,14 @@ cask 'quicklook-json'
 # cask 'font-source-serif-pro'
 
 # Mac App Store
-# mas 'Byword', id: 420212497
-mas "EchofonLite", id: 403858460
-# mas 'Giphy Capture', id: 668208984
-mas "Hue in the Menu", id: 1534707384
-# mas 'Keynote', id: 409183694
-mas 'Meeter', id: 1510445899
-# mas 'Numbers', id: 409203825
-# mas 'Speedtest', id: 1153157709
-# mas 'Things', id: 904280696
-# mas 'Tweetbot', id: 1384080005
+mas "Dashlane", id: 517914548
+mas "Hotspot Shield", id: 771076721
+mas "HP", id: 1474276998
+mas "HueAndTheMenu", id: 1534707384
+mas "iMovie", id: 408981434
+mas "Keynote", id: 409183694
+mas "LastPass", id: 926036361
+mas "Numbers", id: 409203825
+mas "Pages", id: 409201541
+mas "Windows App", id: 1295203466
+mas "Xcode", id: 497799835
