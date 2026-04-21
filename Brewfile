@@ -5,7 +5,7 @@ tap 'homebrew/cask'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
-tap 'shivammathur/php'
+# tap 'shivammathur/php'
 
 # Binaries
 brew "ansible"
@@ -27,9 +27,11 @@ brew "nmap"
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 
 # DevOps
+brew 'helm'
 brew 'minikube'
 brew 'kubectl' # kubernetes-cli
 brew 'kubectx'
+brew 'argocd'
 # brew 'hyperkit' # Not available on Apple Silicon
 
 # Spatie Medialibrary
@@ -43,7 +45,7 @@ brew 'gifsicle'
 brew 'php'
 brew 'php@8.0'
 brew 'php@7.4'
-brew 'shivammathur/php/php@7.3'
+# brew 'shivammathur/php/php@7.3'
 brew "php-code-sniffer"
 brew "php-cs-fixer"
 brew 'composer'
@@ -72,6 +74,7 @@ cask "dropbox"
 cask 'firefox'
 cask 'github'
 cask 'google-chrome'
+cask 'google-cloud-sdk'
 cask "google-drive"
 cask 'gpg-suite'
 # cask 'helo'
@@ -88,10 +91,11 @@ cask "microsoft-teams"
 cask 'phpmon'
 # cask 'phpstorm'
 # cask 'ray'
+cask 'rectangle'
 # cask 'screenflow'
 cask "sequel-pro"
 cask 'slack'
-cask "spectacle"
+# cask "spectacle"
 cask "spotify"
 cask "sublime-text"
 cask 'tableplus'

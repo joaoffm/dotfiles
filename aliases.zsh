@@ -25,16 +25,21 @@ alias serve="php artisan serve"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
-alias composer="php -d memory_limit=-1 /opt/homebrew/bin/composer"
+alias composer="herd php -d memory_limit=-1 /opt/homebrew/bin/composer"
+alias php="herd php"
+alias phpcs="herd php vendor/bin/phpcs"
+alias phpstan="herd php vendor/bin/phpstan"
+alias phpcbf="herd php vendor/bin/phpcbf"
+alias pest="herd php vendor/bin/pest"
 ## Intel
 #alias php7.3="/usr/local/opt/php@7.3/bin/php"
 #alias php7.4="/usr/local/opt/php@7.4/bin/php"
 #alias php8.0="/usr/local/opt/php@8.0/bin/php"
 ## Apple Silicon
-alias php7.3="/opt/homebrew/opt/php@7.3/bin/php"
-alias php7.4="/opt/homebrew/opt/php@7.4/bin/php"
-alias php8.0="/opt/homebrew/opt/php@8.0/bin/php"
 alias php8.1="/opt/homebrew/opt/php@8.1/bin/php"
+alias php8.2="/opt/homebrew/opt/php@8.2/bin/php"
+alias php8.3="/opt/homebrew/opt/php@8.3/bin/php"
+alias php8.4="/opt/homebrew/opt/php@8.4/bin/php"
 # PestPHP
 alias p="./vendor/bin/pest --colors=always"
 
@@ -74,3 +79,5 @@ alias dep="vendor/bin/deployer.phar"
 # DBngin
 #alias mysqldump="/Users/Shared/DBngin/mysql/5.7.23/bin/mysqldump"
 
+# Update Brewfile with currently installed packages
+alias brewsave="brew bundle dump --force --no-vscode --file=~/.dotfiles/Brewfile"
