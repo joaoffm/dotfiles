@@ -3,8 +3,6 @@ tap "anomalyco/tap" # Opencode CLI
 tap "aws/tap" # AWS CLI v2
 # tap 'homebrew/cask-drivers'
 # tap 'homebrew/cask-fonts'
-tap 'homebrew/cask-versions'
-tap 'homebrew/bundle'
 tap "warrensbox/tap" # Tfswitch
 
 # Binaries
@@ -27,7 +25,7 @@ brew "git-lfs"
 brew "gitleaks"
 brew "goaccess"
 brew 'grep'
-brew 'httpie'
+brew 'httpie-desktop'
 brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
@@ -72,7 +70,6 @@ cask 'dbngin'
 cask "ghostty"
 cask "github"
 cask "google-drive"
-cask "google-drive"
 cask "handy"
 cask 'herd'
 cask 'httpie'
@@ -83,7 +80,7 @@ cask "lando"
 cask "opencode-desktop"
 cask "raycast"
 cask 'rectangle'
-cask "sequel-pro"
+#cask "sequel-pro"
 cask "spotify"
 cask "sublime-text"
 cask 'tableplus'
@@ -92,11 +89,10 @@ cask 'the-unarchiver'
 cask 'visual-studio-code'
 cask "warp"
 cask 'whatsapp'
-cask 'zoom'
 
 # Quicklook
 cask 'qlmarkdown'
-cask 'quicklook-json'
+#cask 'quicklook-json'
 
 # Fonts
 # cask 'font-lato'
@@ -113,9 +109,9 @@ mas "Hotspot Shield", id: 771076721
 mas "HP", id: 1474276998
 mas "HueAndTheMenu", id: 1534707384
 mas "iMovie", id: 408981434
-mas "Keynote", id: 409183694
-mas "LastPass", id: 926036361
-mas "Numbers", id: 409203825
-mas "Pages", id: 409201541
+mas "Keynote", id: 361285480
+mas "LastPass", id: 6504626762
+mas "Numbers", id: 361304891
+mas "Pages", id: 361309726
 mas "Windows App", id: 1295203466
 mas "Xcode", id: 497799835
