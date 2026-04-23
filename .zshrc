@@ -117,9 +117,9 @@ export XDEBUG_CONFIG="idekey=VSCODE"
 export PHP_INI_SCAN_DIR="$HOME/Library/Application Support/Herd/config/php/":$PHP_INI_SCAN_DIR
 
 # Herd injected NVM configuration
-#export NVM_DIR="$HOME/Library/Application Support/Herd/config/nvm"
+export NVM_DIR="$HOME/Library/Application Support/Herd/config/nvm"
 
-#[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
 [[ -f "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh" ]] && builtin source "/Applications/Herd.app/Contents/Resources/config/shell/zshrc.zsh"
 
@@ -156,3 +156,6 @@ if [[ -f "$HOME/.env" ]]; then
 fi
 
 export PATH="$HOME/.local/bin:$PATH"
+
+export PATH="/Users/joaomachado/.lando/bin:$PATH"; #landopath
+

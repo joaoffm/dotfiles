@@ -25,7 +25,7 @@ alias cloud="php $HOME/Code/laravel/cloud-cli/cloud"
 
 # PHP
 alias cfresh="rm -rf vendor/ composer.lock && composer i"
-alias composer="herd herd composer"
+alias composer="herd composer"
 alias php="herd php"
 alias test="pest --no-coverage"
 

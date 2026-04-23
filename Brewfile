@@ -1,8 +1,9 @@
 # Taps
 tap "anomalyco/tap" # Opencode CLI
 tap "aws/tap" # AWS CLI v2
-# tap 'homebrew/cask-drivers'
 # tap 'homebrew/cask-fonts'
+tap "shivammathur/extensions" # PHP extensions
+tap "shivammathur/php" # Latest PHP versions
 tap "warrensbox/tap" # Tfswitch
 
 # Binaries
@@ -25,7 +26,7 @@ brew "git-lfs"
 brew "gitleaks"
 brew "goaccess"
 brew 'grep'
-brew 'httpie-desktop'
+brew 'httpie'
 brew 'jq' # Used for spatie/visit
 brew 'mackup'
 brew 'mas' # Mac App Store manager
@@ -61,6 +62,9 @@ brew "wget"
 brew "wp-cli"
 brew "wrk"
 
+brew "anomalyco/tap/opencode"
+brew "shivammathur/extensions/pcov@8.3"
+brew "shivammathur/extensions/phpredis@8.3"
 
 # Apps
 cask 'adobe-acrobat-reader'
@@ -76,7 +80,6 @@ cask 'httpie'
 cask 'imageoptim'
 cask 'iterm2'
 cask "keepassxc"
-cask "lando"
 cask "opencode-desktop"
 cask "raycast"
 cask 'rectangle'
